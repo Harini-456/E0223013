@@ -1,4 +1,4 @@
-// Simple logging middleware for Express-like frameworks
+// Lightweight logging middleware for Express apps — logs requests and errors
 
 function requestLogger(req, res, next) {
   const start = Date.now();
